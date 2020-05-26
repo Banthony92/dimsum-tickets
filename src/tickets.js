@@ -83,5 +83,15 @@ export default [
         path: "TreeView/PUI-2690",
       }
     ]
+  },
+  {
+    ...getDefaults("Shuttle"),
+    type: 'group',
+    children: [
+      {
+        ...getDefaults("Overview"),
+        path: "Shuttle/Overview",
+      }
+    ]
   }
 ];
